@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings Colors -->
+    <color name="colorPrimary">#18273C</color>
+    <color name="colorPrimaryDark">#18273C</color>
+    <color name="colorAccent">#18273C</color>
+
+    <!-- Others Colors -->
+    <color name="bluish_white">#F3F4F8</color>
+    <color name="white">#ffffff</color>
+    <color name="dark_blue">#162336</color>
+</resources>

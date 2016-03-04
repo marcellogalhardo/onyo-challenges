@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Onyo</string>
+    <string name="company_pick">Escolha o seu restaurante</string>
+    <string name="retry">Tentar novamente</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_menu">Cardápio</string>
+    <string name="tab_redeem">Resgate</string>
+    <string name="empty" />
+</resources>
