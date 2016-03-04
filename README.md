@@ -31,6 +31,7 @@ Company list: [http://private-2314f-onyo.apiary-mock.com/company](http://private
 * Asynchronous and on demand image loading ✔
 * Dependency management system: Gradle ✔
 * Minimum SDK version must be **15** ✔
+* Really must have (bonus): RxJava + RxAndroid ✔
 
 ### **Optional, but recommended** ###
 
@@ -41,7 +42,6 @@ Company list: [http://private-2314f-onyo.apiary-mock.com/company](http://private
 * Annotation/Dependency Injection Framework: Dagger ✗
 * Unit Testing: JUnit ✗
 * Functional tests: Espresso ✗
-* Bonus: RxJava + RxAndroid ✔
 
 ### **ATENTION** ###
 1. You don`t need to worry about the category images height. You can assume that all the images have the same height.
