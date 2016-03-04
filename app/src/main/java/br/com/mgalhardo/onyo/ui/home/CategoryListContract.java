@@ -6,9 +6,9 @@ import br.com.mgalhardo.onyo.model.aggregation.CompanyAggregation;
 import br.com.mgalhardo.onyo.model.implementation.Category;
 import br.com.mgalhardo.onyo.model.implementation.Company;
 
-public class CategoryListContract {
+public interface CategoryListContract {
 
-    public interface View {
+    interface View {
         void refreshUi(List<Category> categories);
         void showLoadingLayout();
         void showErrorLayout();
@@ -16,7 +16,7 @@ public class CategoryListContract {
         void showEmptyLayout();
     }
 
-    public interface Presenter {
+    interface Presenter {
         CompanyAggregation onSaveInstanceState();
         void onLoadInstanceState(CompanyAggregation aggregation);
         void loadCategories();

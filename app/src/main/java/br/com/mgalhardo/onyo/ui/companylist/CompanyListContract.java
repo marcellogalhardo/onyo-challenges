@@ -5,9 +5,9 @@ import java.util.List;
 import br.com.mgalhardo.onyo.model.aggregation.CompanyAggregation;
 import br.com.mgalhardo.onyo.model.implementation.Company;
 
-public class CompanyListContract {
+public interface CompanyListContract {
 
-    public interface View {
+    interface View {
         void refreshUi(List<Company> companies);
         void showLoadingLayout();
         void showErrorLayout();
@@ -15,7 +15,7 @@ public class CompanyListContract {
         void showEmptyLayout();
     }
 
-    public interface Presenter {
+    interface Presenter {
         CompanyAggregation onSaveInstanceState();
         void onLoadInstanceState(CompanyAggregation aggregation);
         void loadCompanies();
