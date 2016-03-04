@@ -6,13 +6,6 @@
 
     <include layout="@layout/appbarlayout_company_list"/>
 
-    <android.support.v4.widget.NestedScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true">
-
-        <include layout="@layout/content_company_list" />
-
-    </android.support.v4.widget.NestedScrollView>
+    <include layout="@layout/content_company_list" />
 
 </LinearLayout>
