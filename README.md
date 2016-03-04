@@ -25,19 +25,19 @@ Company list: [http://private-2314f-onyo.apiary-mock.com/company](http://private
 
 ### **Must have** ###
 
-* Customized ActionBar ✓
-* Company list ✓
-* Category list ✓
-* Asynchronous and on demand image loading ✓
-* Dependency management system: Gradle ✓
-* Minimum SDK version must be **15** ✓
+* Customized ActionBar ✔
+* Company list ✔
+* Category list ✔
+* Asynchronous and on demand image loading ✔
+* Dependency management system: Gradle ✔
+* Minimum SDK version must be **15** ✔
 
 ### **Optional, but recommended** ###
 
-* Tabs ✓
-* API Communication Framework: OkHttp + Retrofit ✓
-* ORM Framework: PaperDb (for easy cache) ✓
-* Image loading and cache Framework: Picasso ✓
+* Tabs ✔
+* API Communication Framework: OkHttp + Retrofit ✔
+* ORM Framework: PaperDb (for easy cache) ✔
+* Image loading and cache Framework: Picasso ✔
 * Annotation/Dependency Injection Framework: Dagger ✗
 * Unit Testing: JUnit ✗
 * Functional tests: Espresso ✗
