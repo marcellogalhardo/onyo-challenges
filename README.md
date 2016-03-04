@@ -7,7 +7,7 @@ Ela foi desenvolvida seguindo os conceitos de **Inversão de Controle** (ainda f
 
 Obs: como eu não participei do processo seletivo da Onyo, não realizei qualquer Pull Request.
 
-### **Inglês** ###
+### **English** ###
 
 Application developed with the aim to practice techniques Rx Android and as a portfolio of my abilities as a developer.
 It was developed following the concepts of **Inversion of Control** (still missing put a framework) and separation of presentation: **Model View Presenter**.
