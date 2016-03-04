@@ -21,7 +21,7 @@ public class BundleHelper {
 
     @SuppressWarnings({ "unchecked", "UnusedDeclaration" })
     public static <T extends Parcelable> T getParcelable(@NonNull Bundle bundle, String key) {
-        return (T) bundle.getSerializable(key);
+        return (T) bundle.getParcelable(key);
     }
 
 }
